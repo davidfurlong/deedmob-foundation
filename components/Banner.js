@@ -5,8 +5,8 @@ const Banner = (props) => (
                 <h1>Deedmob Foundation</h1>
             </header>
             <div className="content">
-                <p>Solving coordination problems using technology<br />
-                to solve the world most challenging problems</p>
+                <p>Coordination using technology<br />
+                to solve the world most challenging societal problems</p>
                 
             </div>
         </div>
