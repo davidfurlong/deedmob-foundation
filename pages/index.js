@@ -9,6 +9,7 @@ export default () => (
             <Banner />
 
             <div id="main">
+            {/*
                 <section id="one" className="tiles">
                     <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
                         <header className="major">
@@ -53,15 +54,27 @@ export default () => (
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
                 </section>
+            */}
                 <section id="two">
                     <div className="inner">
                         <header className="major">
-                            <h2>Massa libero</h2>
+                            <h2>What we believe in</h2>
                         </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                        <ul className="actions">
+                        <p>
+                        The Deedmob Foundation was founded in order to facilitate the creation and adoption of technology in the nonprofit sector, as well as to organize and facilitate volunteering initiatives to engage young people with doing good.
+                        
+                        <br/><br/>
+                        We strive to be a organization that is effective in allocating resources and is able to communite our impact.
+                        In order to achieve this mission we believe in collaboration, transparency and evaluation. We were founded by Effective Altruists - read more about what that is <a href="https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/">here</a>
+                        <br/><br/>
+                        This website will in the future contain easy access to our financials, updates in our projects and critical evaluations of our impact.
+                        <br/><br/>
+                        We will also explore best practices of trying to be a tech forward nonprofit based in the Netherlands, sharing
+                        how we operate and use technology to engage the community, volunteers and donors.
+                        </p>
+                        {/*<ul className="actions">
                             <li><Link href="/landing"><a className="button next">Get Started</a></Link></li>
-                        </ul>
+        </ul>*/}
                     </div>
                 </section>
             </div>

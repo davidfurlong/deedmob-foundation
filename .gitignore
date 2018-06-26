@@ -1,7 +1,2 @@
-.DS_Store
+node_modules/
 .next
-.vscode
-out/
-node_modules
-yarn.lock
-package-lock.json
