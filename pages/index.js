@@ -86,13 +86,9 @@ export default () => (
               nonprofit based in the Netherlands, sharing how we operate and use
               technology to engage the community, volunteers and donors.
             </p>
-            <ul className="actions">
-              <li>
-                <Link href="/about">
-                  <a className="button next">More information</a>
-                </Link>
-              </li>
-            </ul>
+            <Link href="/about">
+              <a className="button next">More information</a>
+            </Link>
           </div>
         </section>
       </div>
