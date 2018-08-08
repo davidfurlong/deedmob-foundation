@@ -3,7 +3,7 @@ const Footer = (props) => (
         <div className="inner">
             
             <ul className="copyright">
-                <li>&copy; Deedmob Foundation 2018</li><li>Design: HTML5 UP</li>
+                <li>&copy; Deedmob Foundation 2018</li><li>Design: HTML5 UP, Modified: <a href="">Open Source</a></li>
             </ul>
         </div>
     </footer>

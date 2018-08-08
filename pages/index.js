@@ -1,15 +1,15 @@
-import Link from 'next/link'
+import Link from "next/link";
 
-import Layout from '../components/Layout'
-import Banner from '../components/Banner'
+import Layout from "../components/Layout";
+import Banner from "../components/Banner";
 
 export default () => (
-    <Layout>
-        <div>
-            <Banner />
+  <Layout>
+    <div>
+      <Banner />
 
-            <div id="main">
-            {/*
+      <div id="main">
+        {/*
                 <section id="one" className="tiles">
                     <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
                         <header className="major">
@@ -55,30 +55,47 @@ export default () => (
                     </article>
                 </section>
             */}
-                <section id="two">
-                    <div className="inner">
-                        <header className="major">
-                            <h2>What we believe in</h2>
-                        </header>
-                        <p>
-                        The Deedmob Foundation was founded in order to facilitate the creation and adoption of technology in the nonprofit sector, as well as to organize and facilitate volunteering initiatives to engage young people with doing good.
-                        
-                        <br/><br/>
-                        We strive to be a organization that is effective in allocating resources and is able to communite our impact.
-                        In order to achieve this mission we believe in collaboration, transparency and evaluation. We were founded by Effective Altruists - read more about what that is <a href="https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/">here</a>
-                        <br/><br/>
-                        This website will in the future contain easy access to our financials, updates in our projects and critical evaluations of our impact.
-                        <br/><br/>
-                        We will also explore best practices of trying to be a tech forward nonprofit based in the Netherlands, sharing
-                        how we operate and use technology to engage the community, volunteers and donors.
-                        </p>
-                        {/*<ul className="actions">
-                            <li><Link href="/landing"><a className="button next">Get Started</a></Link></li>
-        </ul>*/}
-                    </div>
-                </section>
-            </div>
-
-        </div>
-    </Layout>
-)
+        <section id="two">
+          <div className="inner">
+            <header className="major">
+              <h2>What we believe in</h2>
+            </header>
+            <p>
+              The Deedmob Foundation was founded in order to facilitate the
+              creation and adoption of technology in the nonprofit sector, as
+              well as to organize and facilitate volunteering initiatives to
+              engage young people with doing good.
+              <br />
+              <br />
+              We strive to be a organization that is effective in allocating
+              resources and is able to communite our impact. In order to achieve
+              this mission we believe in collaboration, transparency and
+              evaluation. We were founded by Effective Altruists - read more
+              about what that is{" "}
+              <a href="https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/">
+                here
+              </a>
+              <br />
+              <br />
+              This website will in the future contain easy access to our
+              financials, updates in our projects and critical evaluations of
+              our impact.
+              <br />
+              <br />
+              We will also explore best practices of trying to be a tech forward
+              nonprofit based in the Netherlands, sharing how we operate and use
+              technology to engage the community, volunteers and donors.
+            </p>
+            <ul className="actions">
+              <li>
+                <Link href="/about">
+                  <a className="button next">More information</a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </Layout>
+);

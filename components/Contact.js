@@ -1,7 +1,7 @@
-const Contact = (props) => (
-    <section id="contact">
-        <div className="inner">
-        {/*
+const Contact = props => (
+  <section id="contact">
+    <div className="inner">
+      {/*
             <section>
                 <form>
                     <div className="field half first">
@@ -23,33 +23,35 @@ const Contact = (props) => (
                 </form>
             </section>
         */}
-            <section>
-                <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-envelope"></span>
-                        <h3>Email</h3>
-                        <a href="mailto:">the@deedmob.foundation</a>
-                    </div>
-                </section>
-                <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-phone"></span>
-                        <h3>Phone</h3>
-                        <span>+31(0)614925648</span>
-                    </div>
-                </section>
-                <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-home"></span>
-                        <h3>Address</h3>
-                        <span>Linnaeusstraat 8<br />
-                        Noord Holland<br />
-                        Netherlands</span>
-                    </div>
-                </section>
-            </section>
-        </div>
-    </section>
-)
+      <section>
+        <section>
+          <div className="contact-method">
+            <span className="icon alt fa-envelope" />
+            <h3>Email</h3>
+            <a href="mailto:">the@deedmob.foundation</a>
+          </div>
+        </section>
+        <section>
+          <div className="contact-method">
+            <span className="icon alt fa-phone" />
+            <h3>Phone</h3>
+            <span>+31(0)642014454</span>
+          </div>
+        </section>
+        <section>
+          <div className="contact-method">
+            <span className="icon alt fa-home" />
+            <h3>Address</h3>
+            <span>
+              Linnaeusstraat 8<br />
+              Noord Holland<br />
+              Netherlands
+            </span>
+          </div>
+        </section>
+      </section>
+    </div>
+  </section>
+);
 
-export default Contact
+export default Contact;
