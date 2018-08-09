@@ -43,7 +43,7 @@ const Contact = props => (
             <span className="icon alt fa-home" />
             <h3>Address</h3>
             <span>
-              Linnaeusstraat 8, Amsterdam<br />
+              Linnaeusstraat 8, 1092CK Amsterdam<br />
               Noord Holland<br />
               Netherlands
             </span>
